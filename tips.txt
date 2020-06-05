@@ -1,0 +1,88 @@
+tips
+
+npx react-native init nombreApp
+
+adentro del proyecto correr
+
+npm i redux
+
+npm i react-redux
+
+npm i redux-devtools
+
+npm i redux-thunk
+
+npm i axios
+
+mas
+
+npm install react-router-dom
+
+mas 
+
+npm install react-hook-form
+
+====================
+
+navigation
+
+
+npm install @react-navigation/native
+
+npm install react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+npm i --save react-native-elements
+
+npm i --save react-native-vector-icons
+
+npm install @react-navigation/stack
+
+npm install @react-navigation/drawer
+
+npx react-native link
+
+
+
+===============
+siempre revisar dentro de public -> index.html 
+
+arriba de la linea     <title>React App</title>
+
+si no agregue algo extra para interpretar una ui(iconos, etc)  mas fachera
+(ojo con esto que no se si aplica a react-native)
+
+=========================
+
+=================
+si al querer pegarle a los endpoints del proyecto challenge levantado de forma local pincha
+correr en la consola en la raiz del proyecto
+(seria similar a tener que activar el cors)
+
+adb reverse tcp:8080 tcp:8080
+(seria el puerto en el que tengo levantado el proyecto backend)
+
+
+
+
+========================
+levantar proyecto consola en la raiz del proyecto:
+ 
+yarn
+yarn start
+
+en una nueva consola: 
+yarn android
+
+
+=========================
+
+Si al correr el proyecto te dice que no puede leer alguna propery de undefined
+cerrar todas las consolas
+y volver a correr los comandos de arriba
+
+===========================
+
+cuando te falla que queres subir una app por algo de metro correr en la raiz del proyecto
+watchman watch-del-all && rm -rf node_modules && rm -rf $TMPDIR/metro-* && rm -rf $TMPDIR/haste-map-* && yarn
+
+si sigue fallando reiniciar computadora :) 
