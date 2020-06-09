@@ -8,6 +8,7 @@ export default function InicioScreen(props) {
     <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
       <Text style={{fontSize: 20}}>Inicio Screen</Text>
       <MyButton nombre="Ir a Statisticss" destino="Statistics" />
+
       <BurgersToText />
     </View>
   );

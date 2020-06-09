@@ -1,5 +1,5 @@
 import * as React from 'react';
-import {View, Text, TouchableOpacity, Image} from 'react-native';
+import {Text, TouchableOpacity} from 'react-native';
 import * as RootNavigation from './RootNavigation'
 
 

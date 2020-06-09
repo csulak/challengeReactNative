@@ -30,7 +30,7 @@ import axios from 'axios';
     try{
         const res = await axios.get(`http://localhost:8080/challenge/api/statistics`)
        
-        console.log("statistics ducks" , res.data)
+        console.log("statistics ducks!" , res.data)
        // todo el dispatch va a hacer que se ejecute el pokeReducer
        // por esto tenemos el type que es el case especifico del switch a ejecutar
        // y el payload seria todo el state (array y en el ejemplo de abajo array y offset)
