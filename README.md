@@ -63,6 +63,11 @@ npx react-native link
 
 Se debe correr en la raiz del proyecto lo siguiete
 
+Instalar la version de node correspondiente ( >10 )
+Primero instalar nvm : https://github.com/nvm-sh/nvm
+Luego correr nvm install 12.18.0
+
+Luego :
 -yarn
 -yarn start
 
