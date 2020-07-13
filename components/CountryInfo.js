@@ -17,7 +17,7 @@ export default function App() {
   const {register, setValue, handleSubmit, errors} = useForm();
 
   const onSubmit = (data, e) => {
-    console.log('que hay en data', data);
+    console.log('Buscando informacion de la ip : ', data);
 
     dispatch(postearCountryInfoByIpAccion(data.ip));
     // esto limpia los campos una vez que se termino de ejecutar el form al darle click  a agregar
@@ -47,10 +47,9 @@ export default function App() {
       </View>
 
       <View>
-        <Text>
-          {countryInfo.ip_inserted} - {countryInfo.name} -{' '}
-          {countryInfo.iso_code}
-        </Text>
+        <Text> IP : {countryInfo.ip_inserted} </Text>
+        <Text> Pais : {countryInfo.name} </Text>
+        <Text> ISO code : {countryInfo.iso_code} </Text>
       </View>
     </View>
   );
