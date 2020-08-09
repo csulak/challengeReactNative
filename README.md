@@ -63,11 +63,19 @@ npx react-native link
 
 Se debe correr en la raiz del proyecto lo siguiete
 
--yarn
 -yarn start
 
 En una nueva consola
+
 -yarn android
+
+## Levantar un emulador
+
+sudo chmod 666 /dev/kvm
+
+abrir android studio
+
+poner emulador 
 
 ## Desarrollo
 Proyecto desarrollado en React Native
