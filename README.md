@@ -77,6 +77,19 @@ abrir android studio
 
 poner emulador 
 
+## Subir a play store
+
+https://reactnative.dev/docs/signed-apk-android
+
+https://developer.android.com/studio/publish/app-signing#app-signing-google-play
+
+## Material ui
+
+https://github.com/xotahal/react-native-material-ui
+https://github.com/xotahal/react-native-material-ui/blob/master/docs/GettingStarted.md
+https://github.com/oblador/react-native-vector-icons#installation
+https://www.google.com/search?q=Error%3A+Unable+to+resolve+module+react-native-community+%2F+toolbar-android
+
 ## Desarrollo
 Proyecto desarrollado en React Native
 
