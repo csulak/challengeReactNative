@@ -7,6 +7,9 @@ Contenido:
 - [Versiones](#versiones)
 - [Librerias y Frameworks](#librerias-y-frameworks)
 - [Correr Proyecto](#correr-proyecto)
+- [Levantar un emulador](#levantar-un-emulador)
+- [Subir a play store](#subir-a-play-store)
+- [Material ui](#material-ui)
 - [Desarrollo](#desarrollo)
 - [Tips](#tips)
 
@@ -86,8 +89,11 @@ https://developer.android.com/studio/publish/app-signing#app-signing-google-play
 ## Material ui
 
 https://github.com/xotahal/react-native-material-ui
+
 https://github.com/xotahal/react-native-material-ui/blob/master/docs/GettingStarted.md
+
 https://github.com/oblador/react-native-vector-icons#installation
+
 https://www.google.com/search?q=Error%3A+Unable+to+resolve+module+react-native-community+%2F+toolbar-android
 
 ## Desarrollo
