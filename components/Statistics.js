@@ -37,13 +37,11 @@ const Statistics = () => {
       </TouchableOpacity>
 
       <View>
-        <Text>average distance To Bs AS - quantity of IPs saved</Text>
+        <Text> Average distance To Bs As : {statistics.average} </Text>
       </View>
 
       <View>
-        <Text>
-          {statistics.average} - {statistics.quantity}
-        </Text>
+        <Text>Quantity of IPs saved : {statistics.quantity} </Text>
       </View>
     </View>
   );
